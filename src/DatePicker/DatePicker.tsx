@@ -30,7 +30,9 @@ const styles = StyleSheet.create({
 });
 
 function DatePicker(props: DatePickerProps) {
-    const [iosTempValue, setIosTempValue] = React.useState(props.value || props.minimumDate || new Date());
+    const [iosTempValue, setIosTempValue] = React.useState(
+        props.value || props.minimumDate || props.maximumDate || new Date()
+    );
 
     if (Platform.OS !== 'ios') {
         if (!props.isVisible) return null;
