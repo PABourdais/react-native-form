@@ -144,8 +144,9 @@ A TextInput with a nice animation on focus/blur
 | `leftIcon`            | `ReactNode`              | (Optional) Component to be rendered on the left of the input  |
 | `rightIcon`           | `ReactNode`              | (Optional) Component to be rendered on the right of the input |
 | `textInputProps`      | `TextInputProps`         | (Optional) Props that will be directly passed down to the `TextInput` |
-| `inputContainerStyle` | `ViewStyle`              | (Optional) input container style                              |
-| `inputStyle`          | `TextStyle`              | (Optional) Style to pass down to the `TextInput`              |
+| `inputContainerStyle` | `ViewStyle`              | (Optional) input container style                                      |
+| `inputStyle`          | `TextStyle`              | (Optional) Style to pass down to the `TextInput`                      |
+| `disabled`          | `boolean`              | (Optional) To make it not editable                     |
 
 ### `MultiLineTextField`
 
@@ -159,6 +160,7 @@ A TextInput with a nice animation on focus/blur
 | `onBlur`              | `() => void`             | (Optional) Triggered on input blur                            |
 | `textInputProps`      | `TextInputProps`         | (Optional) Props that will be directly passed down to the `TextInput` |
 | `inputStyle`          | `TextStyle`              | (Optional) Style to pass down to the `TextInput`              |
+| `disabled`          | `boolean`              | (Optional) To make it not editable              |
 
 ### `MCQField`
 
@@ -187,6 +189,7 @@ A TextInput with a nice animation on focus/blur
 | `closeFoldableLabelStyle`       | `TextStyle`                     | (Optional) Close foldable button label style                                                 |
 | `validLabel`                    | `string`                        | (Optional) Text to put inside tablet                                                         |
 | `validLabelStyle`                    | `ViewStyle`                        | (Optional) Style for tablet text                                                             |
+| `disabled`          | `boolean`              | (Optional) To make it not editable                                                           |
 
 ### `PickerField`
 
@@ -200,6 +203,7 @@ A TextInput with a nice animation on focus/blur
 | `rightIcon`           | `React.ReactNode`        | (Optional) Icon to display on the right part of the field     |
 | `inputContainerStyle` | `ViewStyle`              | (Optional) input container style                              |
 | `inputStyle`          | `TextStyle`              | (Optional) Style to pass down to the `TextInput`              |
+| `disabled`          | `boolean`              | (Optional) To make it not editable             |
 
 ### `PhotoField`
 
