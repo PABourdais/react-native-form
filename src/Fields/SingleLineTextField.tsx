@@ -70,6 +70,7 @@ const SingleLineTextField = React.forwardRef((props: SingleLineTextFieldProps, r
                 style={[sharedStyles.inputText, props.inputStyle]}
                 onFocus={() => setFocus(true)}
                 onBlur={() => setFocus(false)}
+                editable={!disabled}
                 {...props.textInputProps}
             />
         </TextFieldAnimation>
